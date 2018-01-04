@@ -1,0 +1,81 @@
+body {
+  height: 150%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+}
+
+#calcBody {
+  display: block;
+  height: 480px;
+  width: 320px;
+  margin: 10% 20% 30% 20%;
+  padding: 5% 5% 5% 5%;
+  border-top-left-radius: 80% 20px;
+  border-top-right-radius: 80% 20px;
+  border-bottom-left-radius: 80% 20px;
+  border-bottom-right-radius: 80% 20px;
+  background-color: beige;
+  box-shadow: -8px 8px 10px rgba(100, 100, 100, 0.8);
+}
+
+#display{
+  display: block;
+  background-color: lightgrey;
+  margin-bottom: 15%;
+  padding-top: 8%;
+  padding-bottom: 1%;
+  border-radius: 5px;
+  box-shadow: inset -1px 2px 8px rgba(100, 100, 100, 0.8);
+}
+
+.result {
+  text-align: right;
+  margin-right: 10%;
+  font-size: 2rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#buttonContainer {
+  margin-top: : 2%;
+  margin-bottom: 8%;
+}
+
+.buttons {
+  font-size: 1.2rem;
+  font-family: 'Roboto Mono', monospace;
+  width: 22%;
+  height: 20%;
+  color: black;
+  background-color: darkgrey;
+  border-radius: 20%;
+  border-top-left-radius: 80% 10px;
+  border-top-right-radius: 80% 10px;
+  border-bottom-left-radius: 100% 10px;
+  border-bottom-right-radius: 100% 10px;
+  padding: 2%;
+  margin: 3% 1%;
+  box-shadow:  -4px 4px 5px rgba(100, 100, 100, 0.8);
+}
+
+#buttonEql {
+  padding-top: 11%;
+  padding-bottom: 11%;
+  float: right;
+}
+
+#button0 {
+  padding-left: 23.5%;
+  padding-right: 23.5%;
+}
+
+
+#footer {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 1.2rem;
+  font-family: 'Roboto Mono', monospace;
+}
